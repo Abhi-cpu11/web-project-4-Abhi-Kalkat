@@ -1,0 +1,69 @@
+body {
+  /* Set background color to tan/light yellow */
+  background-color: #e9dfc3;
+  /* Using a serif font to give professional look */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* Set the margin to 20*/
+  margin: 20px;
+  /* Remove default padding */
+  padding: 0;
+  /* Set vertical spacing between lines to make paragraphs easier to read */
+  line-height: 140%;
+  /* Add subtle space between letters for better readability */
+  letter-spacing: 1px;
+  /* Add a bit of space between words to make text feel more open */
+  word-spacing: 0.9px;
+  /* Increase the base font size to make text easier to read */
+  font-size: 1.2rem;
+  /* Set the text color to a dark shade of green for better contrast against the background and also to replace black, its coolio*/
+  color: #102316;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+  color: yellow;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+div {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Sticky Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  background-color: #355e3b; /* green */
+  color: white;
+  padding: 1em;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+main {
+  /* Ms. H helped this part, said to make a cleaner "border-looking thing" to separate my colors and make it look nice. */
+  padding: 15px;
+  /* Set the background color to a light shade of green and creates a layering effect, this color will be only  used for this because it's really light and my divs are all white so no contrast */
+  background-color: #a6b174;
+}
