@@ -1,3 +1,22 @@
+/* Do What You did last time. like this.
+Color Palette Explanation:
+I chose a monochromatic green color family because it connects to the land, 
+nature, growth, and balance which is exactly what this website is about.
+Since it’s focused on Treaty One, I wanted the whole site to feel peaceful, 
+grounded, and natural. Green represents life, renewal, and harmony, and using different shades of it ties everything back to the land and the message behind the Treaty. 
+The primary dark green (#102316) is used for the most important stuff like the nav bar, 
+footer, titles, and main body text. It’s deep and bold, which makes it feel strong and reliable.` It’s also used on half 
+of the clickable link to keep that grounded tone going. The light green (#a6b174) is used for the main background. It’s soft and relaxing, and it helps 
+everything else pop without feeling too bright. It’s basically the foundation layer that supports 
+everything visually without being distracting. The mid green (#385534) is kind of the middle ground, it adds structure. I used it for headings, 
+links, the image container, the dashed line divider, and the border around the "subscribe now" 
+section. It's also on the other half of the clickable link. It gives just enough contrast to 
+separate things without clashing. It’s good for stuff that’s important, but not the main focus.
+For neutral colors, I went with white for the divs so content is super clear and easy to read. 
+It gives good contrast against the greens and keeps the site from feeling too dark. Then there’s 
+beige (#e9dfc3), which I used in the outer background. It also brings a historic tone that fits 
+with the natural theme.In conclusion, everything stays consistent and easy to look at. The green theme ties it all back 
+to the land and gives off the exact peaceful, clean, grounded, and professional vibe I was going for. */
 body {
   /* Set background color to tan/light yellow */
   background-color: #e9dfc3;
@@ -25,7 +44,7 @@ p {
 }
 
 h1 {
-  color: yellow;
+  color: rgb(185, 0, 188);
   font-size: 40px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
@@ -45,18 +64,6 @@ div {
   border-radius: 5px;
 }
 
-/* Sticky Navbar */
-.navbar {
-  position: sticky;
-  top: 0;
-  bottom: 0;
-  background-color: #355e3b; /* green */
-  color: white;
-  padding: 1em;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
 section {
   margin-bottom: 3em;
 }
@@ -66,4 +73,76 @@ main {
   padding: 15px;
   /* Set the background color to a light shade of green and creates a layering effect, this color will be only  used for this because it's really light and my divs are all white so no contrast */
   background-color: #a6b174;
+}
+
+.nav {
+  /* Remove all default margins around the element */
+  margin: 0;
+  /* Make the element span the full width of its container */
+  width: 100%;
+}
+
+/*Ishaan helped me with my NAV bar*/
+/*"Trailblazer" refers to someone who paves the way for others to follow. They are following my NAV bar*/
+.nav a {
+  /* Set link color to white */
+  color: rgb(254, 254, 254);
+  /* Remove underline from links */
+  text-decoration: none;
+  /* Add padding around the link */
+  padding: 25px;
+  /* Make links block elements for full-width clickable areas */
+  display: block;
+  /* Center align the text inside the link */
+  text-align: center;
+}
+
+.nav a:hover {
+  /* Set background color to white when hovered which an additonal feature */
+  background-color: white;
+  /* Round the corners of the link on hover */
+  border-radius: 5px;
+}
+
+.nav li {
+  /* Remove any float (for use with flexbox) */
+  float: none;
+}
+
+.nav ul {
+  /* Remove bullet points from the list */
+  list-style-type: none;
+  /* Remove default margin */
+  margin: 0px;
+  /* Clear floats (for use with flexbox) */
+  overflow: hidden;
+  /* Use flexbox layout for horizontal items */
+  display: flex;
+  /* Center-align navbar items */
+  justify-content: center;
+  /* Remove padding */
+  padding: 0px;
+  /* Set background color of the navbar to dark green */
+  background-color: #102316;
+}
+
+footer {
+  /* Set footer background color to match navbar, before it looked different so I had to adjust to match nav bar*/
+  background-color: #102316;
+  /* Set text color to white */
+  color: rgb(255, 255, 255);
+  /* Add padding inside the footer */
+  padding: 10px;
+  /* Make footer span full width of the screen */
+  width: 100%;
+  /* Use flexbox layout to center content */
+  display: flex;
+  /* Horizontally center-align footer content */
+  justify-content: center;
+  /* Vertically center-align footer content */
+  align-items: center;
+  /* Remove default margin */
+  margin: 0;
+  /* Include padding in the element's total width */
+  box-sizing: border-box;
 }
