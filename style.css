@@ -1,25 +1,9 @@
 /* Do What You did last time. like this.
 Color Palette Explanation:
-I chose a monochromatic green color family because it connects to the land, 
-nature, growth, and balance which is exactly what this website is about.
-Since it’s focused on Treaty One, I wanted the whole site to feel peaceful, 
-grounded, and natural. Green represents life, renewal, and harmony, and using different shades of it ties everything back to the land and the message behind the Treaty. 
-The primary dark green (#102316) is used for the most important stuff like the nav bar, 
-footer, titles, and main body text. It’s deep and bold, which makes it feel strong and reliable.` It’s also used on half 
-of the clickable link to keep that grounded tone going. The light green (#a6b174) is used for the main background. It’s soft and relaxing, and it helps 
-everything else pop without feeling too bright. It’s basically the foundation layer that supports 
-everything visually without being distracting. The mid green (#385534) is kind of the middle ground, it adds structure. I used it for headings, 
-links, the image container, the dashed line divider, and the border around the "subscribe now" 
-section. It's also on the other half of the clickable link. It gives just enough contrast to 
-separate things without clashing. It’s good for stuff that’s important, but not the main focus.
-For neutral colors, I went with white for the divs so content is super clear and easy to read. 
-It gives good contrast against the greens and keeps the site from feeling too dark. Then there’s 
-beige (#e9dfc3), which I used in the outer background. It also brings a historic tone that fits 
-with the natural theme.In conclusion, everything stays consistent and easy to look at. The green theme ties it all back 
-to the land and gives off the exact peaceful, clean, grounded, and professional vibe I was going for. */
+ */
 body {
   /* Set background color to tan/light yellow */
-  background-color: #e9dfc3;
+  background-color: #000000;
   /* Using a serif font to give professional look */
   font-family: Georgia, "Times New Roman", Times, serif;
   /* Set the margin to 20*/
@@ -46,7 +30,6 @@ p {
 h1 {
   color: rgb(185, 0, 188);
   font-size: 40px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   text-align: center;
 }
@@ -54,7 +37,6 @@ h1 {
 h2 {
   color: green;
   font-size: 25px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
 }
 
@@ -72,7 +54,7 @@ main {
   /* Ms. H helped this part, said to make a cleaner "border-looking thing" to separate my colors and make it look nice. */
   padding: 15px;
   /* Set the background color to a light shade of green and creates a layering effect, this color will be only  used for this because it's really light and my divs are all white so no contrast */
-  background-color: #a6b174;
+  background-color: #8a984d;
 }
 
 .nav {
@@ -80,10 +62,9 @@ main {
   margin: 0;
   /* Make the element span the full width of its container */
   width: 100%;
+  position: sticky;
 }
 
-/*Ishaan helped me with my NAV bar*/
-/*"Trailblazer" refers to someone who paves the way for others to follow. They are following my NAV bar*/
 .nav a {
   /* Set link color to white */
   color: rgb(254, 254, 254);
